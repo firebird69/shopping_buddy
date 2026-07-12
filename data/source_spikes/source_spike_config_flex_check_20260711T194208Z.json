@@ -1,0 +1,77 @@
+{
+  "label": "config_flex_check",
+  "fetched_at": "2026-07-11T19:42:07.406391+00:00",
+  "evidence": {
+    "label": "config_flex_check",
+    "fetched_at": "2026-07-11T19:42:07.406391+00:00",
+    "channels": {
+      "custom_auchan_coffee": {
+        "url": "https://auchan.ua/graphql",
+        "status": 200,
+        "bytes": 1682,
+        "search": "кава",
+        "total_count": 455,
+        "items": 2,
+        "kind": "auchan_graphql_search",
+        "retailer": "Auchan custom",
+        "ok": true
+      }
+    },
+    "target_dates": [
+      "2026-07-12"
+    ]
+  },
+  "event_assessments": {
+    "2026-07-12": {
+      "target_date": "2026-07-12",
+      "active_promos": 0,
+      "unknown_dated_promos": 0,
+      "expired_or_not_covering": 0,
+      "sample_titles": []
+    }
+  },
+  "items": [
+    {
+      "source": "custom_auchan_coffee",
+      "retailer": "Auchan custom",
+      "store_or_filial": "ua",
+      "source_product_id": "719620",
+      "sku": "719620",
+      "ean": null,
+      "title": "Кава мелена Кава зі Львова Еспрессо, 450 г",
+      "price_uah": 489.0,
+      "old_price_uah": null,
+      "discount_percent": 0.0,
+      "discount_until": null,
+      "in_stock_or_available": true,
+      "category": "Кава",
+      "source_url": "https://auchan.ua/ua/kofe-molotyj-kava-zi-l-vova-espresso-450-g/",
+      "fetched_at": "2026-07-11T19:42:07.406391+00:00",
+      "raw": {
+        "stock_status": "IN_STOCK",
+        "kind": "auchan_graphql_search"
+      }
+    },
+    {
+      "source": "custom_auchan_coffee",
+      "retailer": "Auchan custom",
+      "store_or_filial": "ua",
+      "source_product_id": "617054",
+      "sku": "617054",
+      "ean": null,
+      "title": "Кава мелена Кава зі Львова Вірменська, 225 г",
+      "price_uah": 301.2,
+      "old_price_uah": null,
+      "discount_percent": 0.0,
+      "discount_until": null,
+      "in_stock_or_available": true,
+      "category": "Кава",
+      "source_url": "https://auchan.ua/ua/kofe-molotyj-kava-zi-l-vova-armjanskaja-225-g/",
+      "fetched_at": "2026-07-11T19:42:07.406391+00:00",
+      "raw": {
+        "stock_status": "IN_STOCK",
+        "kind": "auchan_graphql_search"
+      }
+    }
+  ]
+}

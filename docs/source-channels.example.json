@@ -1,0 +1,16 @@
+{
+  "channels": [
+    {
+      "name": "custom_auchan_coffee",
+      "kind": "auchan_graphql_search",
+      "retailer": "Auchan custom",
+      "enabled": true,
+      "params": {
+        "url": "https://auchan.ua/graphql",
+        "search": "кава",
+        "store": "ua",
+        "limit": 2
+      }
+    }
+  ]
+}

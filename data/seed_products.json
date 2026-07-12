@@ -1,0 +1,30 @@
+[
+  {
+    "id": "pepsi-black-2l",
+    "title_uk": "Напій Pepsi Black безалкогольний сильногазований 2 л",
+    "title_ru": "Напиток Pepsi Black безалкогольный сильногазированный 2 л",
+    "category": "beverages",
+    "size": "2 л"
+  },
+  {
+    "id": "aha-fruit-honey-muesli-330g",
+    "title_uk": "Сухі сніданки АХА мюслі хрусткі фруктові з медом 330 г",
+    "title_ru": "Сухие завтраки АХА мюсли хрустящие фруктовые с медом 330 г",
+    "category": "breakfast",
+    "size": "330 г"
+  },
+  {
+    "id": "president-smetana-15-300g",
+    "title_uk": "Сметана President 15% 300 г стакан",
+    "title_ru": "Сметана President 15% 300 г стакан",
+    "category": "dairy",
+    "size": "300 г"
+  },
+  {
+    "id": "yagotynske-milk-uht-26-900g",
+    "title_uk": "Молоко Яготинське ультрапастеризоване 2.6% 900 г",
+    "title_ru": "Молоко Яготинское ультрапастеризованное 2.6% 900 г",
+    "category": "dairy",
+    "size": "900 г"
+  }
+]

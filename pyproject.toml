@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "the-hardcore-bot"
+version = "0.1.0"
+description = "Kyiv grocery price alert Telegram bot MVP"
+requires-python = ">=3.10"
+dependencies = [
+  "aiogram>=3.6,<4",
+  "requests>=2.31,<3",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[project.scripts]
+hardcore-bot = "hardcore_bot.cli:main"

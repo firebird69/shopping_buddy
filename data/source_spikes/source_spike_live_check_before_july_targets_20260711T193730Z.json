@@ -1,0 +1,661 @@
+{
+  "label": "live_check_before_july_targets",
+  "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+  "evidence": {
+    "label": "live_check_before_july_targets",
+    "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+    "sources": {
+      "atb": {
+        "url": "https://www.atbmarket.com/",
+        "status": 200,
+        "bytes": 548078,
+        "cloudflare_marker": true,
+        "items": 5,
+        "ok": true
+      },
+      "auchan_official": {
+        "url": "https://auchan.ua/graphql",
+        "status": 200,
+        "bytes": 4156,
+        "total_count": 151,
+        "items": 5,
+        "ok": true
+      },
+      "zakaz_novus": {
+        "url": "https://novus.zakaz.ua/en/",
+        "status": 200,
+        "bytes": 487400,
+        "cloudflare_marker": true,
+        "items": 5,
+        "ok": true
+      },
+      "fora": {
+        "url": "https://api.catalog.ecom.fora.ua/api/2.0/exec/EcomCatalogGlobal",
+        "status": 200,
+        "bytes": 30571,
+        "note": "Public replay attempt without persisted browser JWT/cookies",
+        "items": 5,
+        "ok": true
+      },
+      "thrash": {
+        "url": "https://thrash.ua/graphql",
+        "status": 200,
+        "bytes": 1967,
+        "total_count": 5,
+        "items": 5,
+        "ok": true
+      }
+    }
+  },
+  "items": [
+    {
+      "source": "atb_html_homepage",
+      "retailer": "ATB",
+      "store_or_filial": "101332",
+      "source_product_id": "113313",
+      "sku": null,
+      "ean": null,
+      "title": "Морозиво 100г Ласунка Стакан Великан з какао та вареним згущеним молоком",
+      "price_uah": 24.5,
+      "old_price_uah": 49.0,
+      "discount_percent": 50.0,
+      "discount_until": "14.07",
+      "in_stock_or_available": true,
+      "category": "Морозиво",
+      "source_url": "https://www.atbmarket.com/product/morozivo-100g-lasunka-stakan-velikan-z-kakao-ta-varenim-zgusenim-molokom",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "attrs": {
+          "data-url": "/shop/cart/wquantity",
+          "data-first-step": "1",
+          "data-shopid": "101332",
+          "data-productid": "113313",
+          "data-discount": "24",
+          "data-brand": "Ласунка",
+          "data-category": "Морозиво",
+          "data-default-quantity": "1",
+          "data-currency": "UAH",
+          "data-listname": "товари зі знижкою",
+          "data-itemid": "8001",
+          "data-step": "1",
+          "data-current-measure": "unit",
+          "data-cache-value": "0"
+        }
+      }
+    },
+    {
+      "source": "atb_html_homepage",
+      "retailer": "ATB",
+      "store_or_filial": "101332",
+      "source_product_id": "171654",
+      "sku": null,
+      "ean": null,
+      "title": "Морозиво 155 г Ласунка Пломбір Гран-Прі з малиновою підваркою ріжок м/уп",
+      "price_uah": 39.5,
+      "old_price_uah": 79.9,
+      "discount_percent": 51.0,
+      "discount_until": "14.07",
+      "in_stock_or_available": true,
+      "category": "Морозиво",
+      "source_url": "https://www.atbmarket.com/product/morozivo-155-g-lasunka-plombir-gran-pri-z-malinovou-pidvarkou-rizok-mup",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "attrs": {
+          "data-url": "/shop/cart/wquantity",
+          "data-first-step": "1",
+          "data-shopid": "101332",
+          "data-productid": "171654",
+          "data-discount": "40",
+          "data-brand": "Ласунка",
+          "data-category": "Морозиво",
+          "data-default-quantity": "1",
+          "data-currency": "UAH",
+          "data-listname": "товари зі знижкою",
+          "data-itemid": "23045",
+          "data-step": "1",
+          "data-current-measure": "unit",
+          "data-cache-value": "0"
+        }
+      }
+    },
+    {
+      "source": "atb_html_homepage",
+      "retailer": "ATB",
+      "store_or_filial": "101332",
+      "source_product_id": "146563",
+      "sku": null,
+      "ean": null,
+      "title": "Морозиво 0,5 кг Laska Maximuse із шоколадною крихтою та шматочками печива",
+      "price_uah": 99.5,
+      "old_price_uah": 199.9,
+      "discount_percent": 50.0,
+      "discount_until": "14.07",
+      "in_stock_or_available": true,
+      "category": "Морозиво",
+      "source_url": "https://www.atbmarket.com/product/morozivo-05-kg-laska-maximuse-iz-sokoladnou-krihtou-ta-smatockami-peciva",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "attrs": {
+          "data-url": "/shop/cart/wquantity",
+          "data-first-step": "1",
+          "data-shopid": "101332",
+          "data-productid": "146563",
+          "data-discount": "100",
+          "data-brand": "Laska",
+          "data-category": "Морозиво",
+          "data-default-quantity": "1",
+          "data-currency": "UAH",
+          "data-listname": "товари зі знижкою",
+          "data-itemid": "8383",
+          "data-step": "1",
+          "data-current-measure": "unit",
+          "data-cache-value": "0"
+        }
+      }
+    },
+    {
+      "source": "atb_html_homepage",
+      "retailer": "ATB",
+      "store_or_filial": "101332",
+      "source_product_id": "184517",
+      "sku": null,
+      "ean": null,
+      "title": "Морозиво 80г Київський пломбір без цукру ваф/стак п/ет",
+      "price_uah": 26.5,
+      "old_price_uah": 51.5,
+      "discount_percent": 49.0,
+      "discount_until": "14.07",
+      "in_stock_or_available": true,
+      "category": "Морозиво",
+      "source_url": "https://www.atbmarket.com/product/morozivo-80g-kiivskij-plombir-bez-cukru-vafstak-mup",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "attrs": {
+          "data-url": "/shop/cart/wquantity",
+          "data-first-step": "1",
+          "data-shopid": "101332",
+          "data-productid": "184517",
+          "data-discount": "25",
+          "data-brand": "Київський Пломбір",
+          "data-category": "Морозиво",
+          "data-default-quantity": "1",
+          "data-currency": "UAH",
+          "data-listname": "товари зі знижкою",
+          "data-itemid": "32641",
+          "data-step": "1",
+          "data-current-measure": "unit",
+          "data-cache-value": "0"
+        }
+      }
+    },
+    {
+      "source": "atb_html_homepage",
+      "retailer": "ATB",
+      "store_or_filial": "101332",
+      "source_product_id": "162234",
+      "sku": null,
+      "ean": null,
+      "title": "Кава 200 г Ambassador Premium натуральна розчиннa сублімовaнa",
+      "price_uah": 249.9,
+      "old_price_uah": 477.5,
+      "discount_percent": 48.0,
+      "discount_until": "14.07",
+      "in_stock_or_available": true,
+      "category": "Кава, какао",
+      "source_url": "https://www.atbmarket.com/product/kava-200-g-ambassador-premium-naturalna-rozcinna-sublimovana",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "attrs": {
+          "data-url": "/shop/cart/wquantity",
+          "data-first-step": "1",
+          "data-shopid": "101332",
+          "data-productid": "162234",
+          "data-discount": "227",
+          "data-brand": "Ambassador",
+          "data-category": "Кава, какао",
+          "data-default-quantity": "1",
+          "data-currency": "UAH",
+          "data-listname": "товари зі знижкою",
+          "data-itemid": "13093",
+          "data-step": "1",
+          "data-current-measure": "unit",
+          "data-cache-value": "0"
+        }
+      }
+    },
+    {
+      "source": "auchan_official_graphql",
+      "retailer": "Auchan",
+      "store_or_filial": null,
+      "source_product_id": "899790",
+      "sku": "899790",
+      "ean": null,
+      "title": "Молоко Наше молоко ультрапастеризоване 2.5% 500 г (4820016255098)",
+      "price_uah": 39.5,
+      "old_price_uah": 41.7,
+      "discount_percent": 5.28,
+      "discount_until": null,
+      "in_stock_or_available": true,
+      "category": "Молоко",
+      "source_url": "https://auchan.ua/ua/moloko-dlja-ditej-vid-3-rokiv-ul-trapasterizovane-nashe-moloko-2-5-500-g/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "stock_status": "IN_STOCK"
+      }
+    },
+    {
+      "source": "auchan_official_graphql",
+      "retailer": "Auchan",
+      "store_or_filial": null,
+      "source_product_id": "907139",
+      "sku": "907139",
+      "ean": null,
+      "title": "Молоко Наше молоко ультрапастеризоване 2.5% 950 г (4820016254855)",
+      "price_uah": 54.5,
+      "old_price_uah": 82.4,
+      "discount_percent": 33.86,
+      "discount_until": null,
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://auchan.ua/ua/moloko-dlja-ditej-vid-3rokiv-ul-trapasterizovane-nashe-moloko-2-5-950-g/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "stock_status": "IN_STOCK"
+      }
+    },
+    {
+      "source": "auchan_official_graphql",
+      "retailer": "Auchan",
+      "store_or_filial": null,
+      "source_product_id": "901972",
+      "sku": "901972",
+      "ean": null,
+      "title": "Молоко Auchan кокосове 200 мл",
+      "price_uah": 105.9,
+      "old_price_uah": null,
+      "discount_percent": 0.0,
+      "discount_until": null,
+      "in_stock_or_available": true,
+      "category": "Молоко",
+      "source_url": "https://auchan.ua/ua/moloko-auchan-kokosove-200-ml/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "stock_status": "IN_STOCK"
+      }
+    },
+    {
+      "source": "auchan_official_graphql",
+      "retailer": "Auchan",
+      "store_or_filial": null,
+      "source_product_id": "580291",
+      "sku": "580291",
+      "ean": null,
+      "title": "Кокосове молоко Kara, 17%, 425 мл",
+      "price_uah": 244.5,
+      "old_price_uah": null,
+      "discount_percent": 0.0,
+      "discount_until": null,
+      "in_stock_or_available": true,
+      "category": "Азіатська кухня",
+      "source_url": "https://auchan.ua/ua/kokosovoe-moloko-kara-17-425-ml/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "stock_status": "IN_STOCK"
+      }
+    },
+    {
+      "source": "auchan_official_graphql",
+      "retailer": "Auchan",
+      "store_or_filial": null,
+      "source_product_id": "643281",
+      "sku": "643281",
+      "ean": null,
+      "title": "Вафлі Roshen Wafers молоко, 216 г",
+      "price_uah": 64.5,
+      "old_price_uah": null,
+      "discount_percent": 0.0,
+      "discount_until": null,
+      "in_stock_or_available": true,
+      "category": "Печиво та вафлі",
+      "source_url": "https://auchan.ua/ua/vafli-roshen-wafers-moloko-216-g/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "stock_status": "IN_STOCK"
+      }
+    },
+    {
+      "source": "zakaz_novus_next_data",
+      "retailer": "Novus via Zakaz",
+      "store_or_filial": null,
+      "source_product_id": "398032",
+      "sku": "398032",
+      "ean": "04820252121867",
+      "title": "Shake Daiquiri Low-alcohol Drink 7% 0.5l",
+      "price_uah": 44.99,
+      "old_price_uah": 52.99,
+      "discount_percent": 15.0,
+      "discount_until": "2026-07-22",
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://novus.zakaz.ua/en/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "unit": "pcs",
+        "currency": "uah"
+      }
+    },
+    {
+      "source": "zakaz_novus_next_data",
+      "retailer": "Novus via Zakaz",
+      "store_or_filial": null,
+      "source_product_id": "3963",
+      "sku": "3963",
+      "ean": "novus02850029000000",
+      "title": "Banana",
+      "price_uah": 59.99,
+      "old_price_uah": 63.99,
+      "discount_percent": 6.0,
+      "discount_until": "2026-07-12",
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://novus.zakaz.ua/en/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "unit": "kg",
+        "currency": "uah"
+      }
+    },
+    {
+      "source": "zakaz_novus_next_data",
+      "retailer": "Novus via Zakaz",
+      "store_or_filial": null,
+      "source_product_id": "112148",
+      "sku": "112148",
+      "ean": "novus02865892000000",
+      "title": "Pink tomato",
+      "price_uah": 79.99,
+      "old_price_uah": 119.0,
+      "discount_percent": 33.0,
+      "discount_until": "2026-07-12",
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://novus.zakaz.ua/en/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "unit": "kg",
+        "currency": "uah"
+      }
+    },
+    {
+      "source": "zakaz_novus_next_data",
+      "retailer": "Novus via Zakaz",
+      "store_or_filial": null,
+      "source_product_id": "48424",
+      "sku": "48424",
+      "ean": "novus02852505000000",
+      "title": "Zucchini Squash",
+      "price_uah": 23.99,
+      "old_price_uah": 28.99,
+      "discount_percent": 17.0,
+      "discount_until": "2026-07-15",
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://novus.zakaz.ua/en/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "unit": "kg",
+        "currency": "uah"
+      }
+    },
+    {
+      "source": "zakaz_novus_next_data",
+      "retailer": "Novus via Zakaz",
+      "store_or_filial": null,
+      "source_product_id": "67999",
+      "sku": "67999",
+      "ean": "00250006754470",
+      "title": "Iceberg Lettuce ~400g",
+      "price_uah": 59.99,
+      "old_price_uah": 69.99,
+      "discount_percent": 14.0,
+      "discount_until": "2026-07-12",
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://novus.zakaz.ua/en/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "unit": "pcs",
+        "currency": "uah"
+      }
+    },
+    {
+      "source": "fora_api_replay",
+      "retailer": "Fora",
+      "store_or_filial": "310",
+      "source_product_id": "28735",
+      "sku": null,
+      "ean": null,
+      "title": "Молоко суперпастеризоване «Селянське» 3,2%",
+      "price_uah": 64.5,
+      "old_price_uah": null,
+      "discount_percent": null,
+      "discount_until": null,
+      "in_stock_or_available": null,
+      "category": null,
+      "source_url": "https://fora.ua/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "unit": "900г",
+        "promotion": {}
+      }
+    },
+    {
+      "source": "fora_api_replay",
+      "retailer": "Fora",
+      "store_or_filial": "310",
+      "source_product_id": "837450",
+      "sku": null,
+      "ean": null,
+      "title": "Молоко пастеризоване «Ферма» 3,2%",
+      "price_uah": 66.9,
+      "old_price_uah": null,
+      "discount_percent": null,
+      "discount_until": null,
+      "in_stock_or_available": null,
+      "category": null,
+      "source_url": "https://fora.ua/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "unit": "840г",
+        "promotion": {}
+      }
+    },
+    {
+      "source": "fora_api_replay",
+      "retailer": "Fora",
+      "store_or_filial": "310",
+      "source_product_id": "848613",
+      "sku": null,
+      "ean": null,
+      "title": "Молоко ультрапастеризоване «Яготинське» 2,6%",
+      "price_uah": 58.3,
+      "old_price_uah": null,
+      "discount_percent": null,
+      "discount_until": null,
+      "in_stock_or_available": null,
+      "category": null,
+      "source_url": "https://fora.ua/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "unit": "900г",
+        "promotion": {}
+      }
+    },
+    {
+      "source": "fora_api_replay",
+      "retailer": "Fora",
+      "store_or_filial": "310",
+      "source_product_id": "866829",
+      "sku": null,
+      "ean": null,
+      "title": "Молоко пастеризоване «Яготинське» 2,6%",
+      "price_uah": 57.9,
+      "old_price_uah": null,
+      "discount_percent": null,
+      "discount_until": null,
+      "in_stock_or_available": null,
+      "category": null,
+      "source_url": "https://fora.ua/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "unit": "870г",
+        "promotion": {}
+      }
+    },
+    {
+      "source": "fora_api_replay",
+      "retailer": "Fora",
+      "store_or_filial": "310",
+      "source_product_id": "885638",
+      "sku": null,
+      "ean": null,
+      "title": "Молоко ультрапастеризоване «Селянське» 2,5%",
+      "price_uah": 37.9,
+      "old_price_uah": 43.9,
+      "discount_percent": null,
+      "discount_until": "19.07.2026",
+      "in_stock_or_available": null,
+      "category": null,
+      "source_url": "https://fora.ua/",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "unit": "500г",
+        "promotion": {
+          "id": "shche-bilshe-znyzhok",
+          "title": "Ще більше знижок",
+          "slug": null,
+          "iconPath": "https://content.fora.ua/bubbles/shche-bilshe-znyzhok.svg",
+          "items": null,
+          "startFrom": "06.07.2026",
+          "stopAfter": "19.07.2026",
+          "description": null,
+          "bonusQuantity": null,
+          "backColor": null,
+          "minCount": null,
+          "fontColor": null,
+          "isTransferSite": null,
+          "isTransferMobileApp": null,
+          "promoIdMobileApp": null,
+          "marketProgramId": 0,
+          "qtyStartPromo": null,
+          "qtyStartPromoUnitText": null
+        }
+      }
+    },
+    {
+      "source": "thrash_graphql_offers",
+      "retailer": "THRASH!ТРАШ!",
+      "store_or_filial": null,
+      "source_product_id": "2100439",
+      "sku": "797",
+      "ean": null,
+      "title": "Напій «Оболонь» «Лимонад»",
+      "price_uah": 37.9,
+      "old_price_uah": 57.99,
+      "discount_percent": null,
+      "discount_until": "2026-07-12T00:00:00.000Z",
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://thrash.ua/product/napii-obolon-limonad-2",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "weight": "2л",
+        "active_start": "2026-06-29T00:00:00.000Z"
+      }
+    },
+    {
+      "source": "thrash_graphql_offers",
+      "retailer": "THRASH!ТРАШ!",
+      "store_or_filial": null,
+      "source_product_id": "2100440",
+      "sku": "1042",
+      "ean": null,
+      "title": "Бренді Ararat 3 роки",
+      "price_uah": 369.0,
+      "old_price_uah": 499.0,
+      "discount_percent": null,
+      "discount_until": "2026-07-12T00:00:00.000Z",
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://thrash.ua/product/brendi-ararat-3-roki",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "weight": "0,5л",
+        "active_start": "2026-06-29T00:00:00.000Z"
+      }
+    },
+    {
+      "source": "thrash_graphql_offers",
+      "retailer": "THRASH!ТРАШ!",
+      "store_or_filial": null,
+      "source_product_id": "2100441",
+      "sku": "3920",
+      "ean": null,
+      "title": "Напій на основі рому Captain Morgan Spiced Gold",
+      "price_uah": 529.0,
+      "old_price_uah": 919.0,
+      "discount_percent": null,
+      "discount_until": "2026-07-12T00:00:00.000Z",
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://thrash.ua/product/napii-na-osnovi-romu-captain-morgan-spiced-gold-80",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "weight": "1л",
+        "active_start": "2026-06-29T00:00:00.000Z"
+      }
+    },
+    {
+      "source": "thrash_graphql_offers",
+      "retailer": "THRASH!ТРАШ!",
+      "store_or_filial": null,
+      "source_product_id": "2100442",
+      "sku": "8231",
+      "ean": null,
+      "title": "Напій «Оболонь» «Ситро»",
+      "price_uah": 37.9,
+      "old_price_uah": 57.99,
+      "discount_percent": null,
+      "discount_until": "2026-07-12T00:00:00.000Z",
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://thrash.ua/product/napii-obolon-sitro-5",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "weight": "2л",
+        "active_start": "2026-06-29T00:00:00.000Z"
+      }
+    },
+    {
+      "source": "thrash_graphql_offers",
+      "retailer": "THRASH!ТРАШ!",
+      "store_or_filial": null,
+      "source_product_id": "2100443",
+      "sku": "9112",
+      "ean": null,
+      "title": "Горілка Finlandia",
+      "price_uah": 439.0,
+      "old_price_uah": 589.0,
+      "discount_percent": null,
+      "discount_until": "2026-07-12T00:00:00.000Z",
+      "in_stock_or_available": true,
+      "category": null,
+      "source_url": "https://thrash.ua/product/gorilka-finlandia-12",
+      "fetched_at": "2026-07-11T19:37:26.146995+00:00",
+      "raw": {
+        "weight": "1л",
+        "active_start": "2026-06-29T00:00:00.000Z"
+      }
+    }
+  ]
+}
