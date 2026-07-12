@@ -1,7 +1,7 @@
 # The Hardcore Bot — Status
 
-**Last updated:** 2026-07-12 23:32 Kyiv / 2026-07-12 20:32 UTC
-**Current phase:** Initial MVP baseline is committed locally on `main`; GitHub remote is configured, but push is blocked by read-only SSH key permissions.
+**Last updated:** 2026-07-13 00:02 Kyiv / 2026-07-12 21:02 UTC
+**Current phase:** Initial MVP baseline is present on GitHub at `origin/main`; this environment still cannot push new commits because GitHub denies the configured deploy key write access.
 
 ## What We're Building
 
@@ -52,7 +52,7 @@ The MVP deliberately avoids broad scraping promises. The intended alpha is low-v
 - Real collectors must stay low-volume and public-source only: no login, private API interception, WAF bypass, proxies, or high-frequency scraping.
 - Price copy must be careful: source data is useful for online deal discovery and directional price intelligence, not guaranteed shelf-price truth.
 - Initial git baseline is committed. Continue using explicit staging only; do not use broad `git add .`.
-- GitHub push to `git@github.com:firebird69/shopping_buddy.git` is blocked in this environment: `ERROR: The key you are authenticating with has been marked as read only.` Operator needs a write-capable deploy key/account key, HTTPS token push, or to push from a machine with write access.
+- GitHub `origin/main` is reachable at `a050117`, but pushing new commits from this environment is still blocked. Default `git@github.com` auth reports a read-only key; the `github-sandwich-write` alias reports `Permission to firebird69/shopping_buddy.git denied to deploy key`.
 - Local environment note: `python3 -m venv .venv` is blocked because `ensurepip` / `python3.10-venv` is missing on this host. Baseline tests were run with user-installed `pytest` via `python3 -m pytest -q`.
 
 ## Latest Advancement Review
@@ -116,8 +116,8 @@ See `docs/next-week-work-plan.md` for the detailed 2026-07-12 to 2026-07-18 plan
 
 - Workspace: `/workspace/projects/the-hardcore-bot`
 - Branch: `main`
-- Git remote: `origin` -> `git@github.com:firebird69/shopping_buddy.git`
-- Git state at this update: initial baseline committed locally at `74305d3`; working tree expected clean; upstream tracking not established because push failed with read-only SSH key.
+- Git remote: `origin` -> `github-sandwich-write:firebird69/shopping_buddy.git`
+- Git state at this update: `origin/main` is `a050117`; local `main` has one status-only commit ahead documenting the unresolved push permission issue.
 - Python requirement: `>=3.10`
 - Main test command after dev install: `python -m pytest -q`
 - Latest validation: `python3 -m pytest -q` passed, 47 tests, on 2026-07-12 20:05 UTC; `python3 -m json.tool` passed for `data/seed_products.json` and `data/source_mappings/initial_catalog.json`; `check_mappings('data/source_mappings/initial_catalog.json', 'data/seed_products.json')` passed; `git diff --check` passed.
@@ -126,6 +126,7 @@ See `docs/next-week-work-plan.md` for the detailed 2026-07-12 to 2026-07-18 plan
 
 ## Recent Activity
 
+- 2026-07-13 00:02 Kyiv — Confirmed `origin/main` is reachable at `a050117`. Retried push through both the default GitHub SSH key and the `github-sandwich-write` alias; both are still blocked for writes (`read only` key / `denied to deploy key`). Local `main` remains one status-only commit ahead until a write-capable credential is available.
 - 2026-07-12 23:32 Kyiv — Configured GitHub remote `origin` and renamed local branch to `main`; attempted `git push -u origin main`, but GitHub rejected the SSH key as read-only. Local commit remains `74305d3` and working tree was clean before this status update.
 - 2026-07-12 23:10 Kyiv — Created the initial git baseline commit after adding `docs/git-strategy.md` as the repo git source of truth, following the agreed convention: explicit staging only, concise conventional commit naming, no-push default, and task closeout evidence.
 - 2026-07-12 22:43 Kyiv — Reviewed ATB collector slice, fixed collector mapping lookup to use product-id-to-normalized-URL directly, added regression coverage, and validated: 47 pytest tests, JSON syntax checks, real mapping validation, and `git diff --check`.
